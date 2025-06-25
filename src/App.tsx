@@ -1,4 +1,4 @@
-import Wrapper from './components/shared/wrapper/wrapper';
+import Wrapper from './components/layout/wrapper/wrapper';
 import Providers from './components/utility/providers/providers';
 
 function App() {
