@@ -1,14 +1,13 @@
 import Wrapper from './components/layout/wrapper/wrapper';
-import Providers from './components/utility/providers/providers';
 
 function App() {
 
   return (
-    <Providers>
-      <Wrapper>
-        {''}
-      </Wrapper>
-    </Providers>
+    // <Providers>
+    <Wrapper>
+      {''}
+    </Wrapper>
+    // </Providers>
   );
 }
 
