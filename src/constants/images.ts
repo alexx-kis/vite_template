@@ -1,5 +1,6 @@
-import { generatePaths } from '../utils/utils';
-import { Ext, PREFIX } from './const';
+import { generatePaths } from '@/utils/utils';
+import { PREFIX } from './const';
+import { Ext } from './enums';
 
 // %======================== images ========================% //
 
@@ -10,7 +11,4 @@ export const Path = {
 };
 
 // %------------------------ icons ------------------------% //
-export const ICONS = generatePaths(Path.ICONS, [
-  'icon-name',
-
-], Ext.SVG);
+export const ICONS = generatePaths(Path.ICONS, ['icon-name'], Ext.SVG);
