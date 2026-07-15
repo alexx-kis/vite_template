@@ -1,4 +1,4 @@
-import { RootLayout as Layout, Wrapper } from '@/components/layout';
+import { RootLayout as Layout } from '@/components/layout';
 import { AppRoute } from '@/constants';
 import '@/styles/index.scss';
 import { Route, Routes } from 'react-router-dom';
